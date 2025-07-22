@@ -94,7 +94,7 @@ export function Header({ isSideNavExpanded, setIsSideNavExpanded }: { isSideNavE
         <DropdownMenuTrigger asChild>
           <Button variant="secondary" size="icon" className="rounded-full">
             <Avatar className="h-8 w-8">
-              <AvatarImage src="/avatars/01.png" alt="@shadcn" />
+              <AvatarImage src="/next.svg" alt="@shadcn" />
               <AvatarFallback>SC</AvatarFallback>
             </Avatar>
             <span className="sr-only">Toggle user menu</span>
